@@ -1,3 +1,6 @@
+//uses chebishev distance formula ie min distance= max(distance bw x coordinates and bw y coordinates of two points)
+//going through all 8 direction possibilities wouldnt have been optimum
+//the formula covers all the direction -->, <--, up doown and \ ,/
 class Solution {
 public:
     int minTimeToVisitAllPoints(vector<vector<int>>& points) {
@@ -11,3 +14,4 @@ public:
         
     }
 };
+
